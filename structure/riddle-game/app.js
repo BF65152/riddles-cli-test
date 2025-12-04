@@ -11,7 +11,7 @@ while (play){
         const theTime = measureSolveTime(()=>askRiddle(riddle))
         console.log(addSolveTime(newPlayer,theTime))
 })
-    console.log(showStats(newPlayer))
+    showStats(newPlayer)
 ;   break;
 
 
