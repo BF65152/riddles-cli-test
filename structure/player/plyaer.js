@@ -19,9 +19,11 @@ export function showStats(player) {
      for (let index = 0; index < player.length; index++) {
         totalTime += player.times
         }
-    const average = totalTime/player.length
-    return average, totalTime
+    let average = totalTime/player.length
+    console.log(average, totalTime)
 }
+
+
 
 
 

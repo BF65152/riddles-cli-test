@@ -17,9 +17,9 @@ export function askRiddle(riddleObj) {
 
 
 export function measureSolveTime(fn) {
-    const beforDate = new Date().getTime()
+    const beforDate = new Date().getTime()/1000
     fn()
-    const afterDate = new Date().getTime()
+    const afterDate = new Date().getTime()/1000
     const totalTime = afterDate - beforDate
     return totalTime
 

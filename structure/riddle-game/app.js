@@ -9,10 +9,10 @@ while (play){
     const newPlayer = createPlayer(name)
     riddles.forEach(riddle => {
         const theTime = measureSolveTime(()=>askRiddle(riddle))
-        addSolveTime(newPlayer,theTime)
+        console.log(addSolveTime(newPlayer,theTime))
 })
-    showStats(newPlayer)
-;
+    console.log(showStats(newPlayer))
+;   break;
 
 
 
